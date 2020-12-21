@@ -103,6 +103,7 @@ Most are included in our survey, and we also list them here.
 - Politeness Transfer: A Tag and Generate Approach, ACL 2020, [[paper]](https://arxiv.org/pdf/2004.14257.pdf)
 
 **Author/Prose Styles**
+- Paraphrasing for Style, COLING 2012, [[paper]](https://www.aclweb.org/anthology/C12-1177.pdf)
 - Shakespearizing Modern Language Using Copy-Enriched Sequence to Sequence Models, EMNLP 2017 Workshop, [[paper]](https://arxiv.org/pdf/1707.01161)[[code]](https://github.com/harsh19/Shakespearizing-Modern-English)
 - Evaluating prose style transfer with the Bible 2018, [[paper]](https://arxiv.org/pdf/1711.04731)
 
@@ -157,6 +158,7 @@ Most are included in our survey, and we also list them here.
 
 **Unsupervised machine translation**
 - Unsupervised neural machine translation, ICLR 2017. [[paper]](https://arxiv.org/pdf/1710.11041.pdf)
+
 
 **Image style transfer**
 
