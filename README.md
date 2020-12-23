@@ -155,6 +155,7 @@ Most are included in our survey, and we also list them here.
 - CTRL: A Conditional Transformer Language Model for Controllable Generation, arXiv 2019. [[paper]](https://arxiv.org/pdf/1909.05858.pdf)
 - Defending Against Neural Fake News, NeurIPS 2019. (about conditional generation of neural fake news) [[paper]](https://arxiv.org/pdf/1905.12616.pdf)
 - Plug and Play Language Models: A Simple Approach to Controlled Text Generation, ICLR 2020. [[paper]](https://openreview.net/pdf?id=H1edEyBKDS)
+- Exploring Controllable Text Generation Techniques, COLING 2020, [[paper]](https://arxiv.org/pdf/2005.01822.pdf)
 
 **Unsupervised machine translation**
 - Unsupervised neural machine translation, ICLR 2017. [[paper]](https://arxiv.org/pdf/1710.11041.pdf)
@@ -178,9 +179,10 @@ Most are included in our survey, and we also list them here.
 
 
 ### Other Resources
-**Review**
+**Review and Thesis**
 - Deep Learning for Text Attribute Transfer: A Survey, arXiv 2020, [[paper]](https://arxiv.org/pdf/2011.00416.pdf)
 - Text Style Transfer: A Review and Experiment Evaluation, arXiv 2020, [[paper]](https://arxiv.org/pdf/2010.12742.pdf)
+- Controllable Text Generation: Should machines reflect the way humans interact in society?, PhD thesis at CMU 2020, [[paper]](https://www.cs.cmu.edu/~sprabhum/docs/proposal.pdf) [[slides]](https://www.cs.cmu.edu/~sprabhum/docs/Thesis_Proposal.pdf)
 
 **Other GitHub Repo**
 - [Style-Transfer-in-Text](https://github.com/fuzhenxin/Style-Transfer-in-Text) by Zhenxin Fu
