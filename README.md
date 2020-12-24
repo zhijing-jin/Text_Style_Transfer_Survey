@@ -55,13 +55,11 @@ Most are included in our survey, and we also list them here.
 **Unsupervised Method 2) Prototype Editing**
 - Generating sentences by editing prototypes, TACL 2018, [[paper]](https://transacl.org/ojs/index.php/tacl/article/view/1296)
 - Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer, NAACL 2018, [[paper]](https://arxiv.org/pdf/1804.06437), [[code]](https://worksheets.codalab.org/worksheets/0xe3eb416773ed4883bb737662b31b4948/)
-- A retrieve-and-edit framework for predicting structured outputs, NIPS 2018, [[paper]](http://papers.nips.cc/paper/8209-a-retrieve-and-edit-framework-for-predicting-structured-outputs)
 - Mask and Infill: Applying Masked Language Model to Sentiment Transfer, IJCAI 2019, [[paper]](https://arxiv.org/pdf/1908.08039)
 - Transforming Delete, Retrieve, Generate Approach for Controlled Text Style Transfer, EMNLP 2019, [[paper]](https://arxiv.org/pdf/1908.09368), [[code]](https://github.com/agaralabs/transformer-drg-style-transfer)
 - Style Transfer for Texts: Retrain, Report Errors, Compare with Rewrites, EMNLP 2019, [[paper]](https://arxiv.org/pdf/1908.06809.pdf), [[code]](https://github.com/VAShibaev/text_style_transfer)
 - Stable Style Transformer: Delete and Generate Approach with Encoder-Decoder for Text Style Transfer, Arxiv 2020, [[paper]](https://arxiv.org/pdf/2005.12086.pdf)
 - Challenges in Emotion Style Transfer: An Exploration with a Lexical Substitution Pipeline, SocialNLP, ACL 2020, [[paper]](https://arxiv.org/pdf/2005.07617.pdf)
-- Transforming Delete, Retrieve, Generate Approach for Controlled Text Style Transfer, EMNLP 2019, [[paper]](https://doi.org/10.18653/v1/D19-1322)
 
 
 **Unsupervised Method 3) Back-Translation / Pseudo Data Construction**
@@ -191,11 +189,12 @@ Most are included in our survey, and we also list them here.
 - Style augmentation: Data augmentation via style randomization, CVPR 2019 Workshop, [[paper]](http://openaccess.thecvf.com/content_CVPRW_2019/html/Deep_Vision_Workshop/Jackson_Style_Augmentation_Data_Augmentation_via_Style_Randomization_CVPRW_2019_paper.html)
 
 **Prototype Editing for Text Generation**
+- Retrieve and refine: Improved sequence generation models for dialogue, EMNLP 2018 Workshop, [[paper]](https://doi.org/10.18653/v1/w18-5713)
+- Guiding neural machine translation with retrieved translation pieces, NAACL 2018, [[paper]](https://doi.org/10.18653/v1/n18-1120)
+- A retrieve-and-edit framework for predicting structured outputs, NIPS 2018, [[paper]](http://papers.nips.cc/paper/8209-a-retrieve-and-edit-framework-for-predicting-structured-outputs)
+- Extract and edit: An alternative to back-translation for unsupervised neural machine translation, NAACL 2019, [[paper]](https://doi.org/10.18653/v1/n19-1120)
 - Simple and effective retrieve-edit-rerank text generation, ACL 2020, [[paper]](https://www.aclweb.org/anthology/2020.acl-main.228/)
 - A retrieve-and-rewrite initialization method for unsupervised machine translation, ACL 2020, [[paper]](https://www.aclweb.org/anthology/2020.acl-main.320/)
-- Retrieve and refine: Improved sequence generation models for dialogue, EMNLP 2018 Workshop, [[paper]](https://doi.org/10.18653/v1/w18-5713)
-- Extract and edit: An alternative to back-translation for unsupervised neural machine translation, NAACL 2019, [[paper]](https://doi.org/10.18653/v1/n19-1120)
-- Guiding neural machine translation with retrieved translation pieces, NAACL 2018, [[paper]](https://doi.org/10.18653/v1/n18-1120)
 
 
 ### Other Style-Related Papers
