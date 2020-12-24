@@ -1,7 +1,7 @@
 This repo collects the papers for text attribute transfer.
 
 ## Survey
-[**Deep Learning for Text Attribute Transfer: A Survey**](https://arxiv.org/pdf/2011.00416.pdf) (2020) by Di Jin*, Zhijing Jin* (Equal contribution), Zhiting Hu, 
+[**Deep Learning for Text Style Transfer: A Survey**](https://arxiv.org/pdf/2011.00416.pdf) (2020) by Di Jin*, Zhijing Jin* (Equal contribution), Zhiting Hu, 
 Olga Vechtomova, and Rada Mihalcea.
 
 ## Workshops and Tutorials
@@ -14,7 +14,7 @@ Most are included in our survey, and we also list them here.
 
 ### Method Papers
 #### Unsupervised (Non-parallel Data)
-**Unsupervised Method 1) Disentanglement**
+**(Unsupervised Method 1) Disentanglement**
 - Sequence to Better Sequence: Continuous Revision of Combinatorial Structures, ICML 2017, [[paper]](http://proceedings.mlr.press/v70/mueller17a.html), [[code]](https://bitbucket.org/jwmueller/sequence-to-better-sequence/)
 - Toward Controlled Generation of Text, ICML 2017, [[paper]](https://arxiv.org/pdf/1703.00955), [[official code]](https://github.com/asyml/texar/tree/master/examples/text_style_transfer), [[unofficial code]](https://github.com/GBLin5566/toward-controlled-generation-of-text-pytorch)
 - Style Transfer from Non-Parallel Text by Cross-Alignment, NIPS 2017, [[paper]](https://papers.nips.cc/paper/7259-style-transfer-from-non-parallel-text-by-cross-alignment.pdf), [[code]](https://github.com/shentianxiao/language-style-transfer)
@@ -52,7 +52,7 @@ Most are included in our survey, and we also list them here.
 - SentiInc: Incorporating Sentiment Information into Sentiment Transfer Without Parallel Data, ECIR 2020, [[paper]](https://link.springer.com/content/pdf/10.1007%2F978-3-030-45442-5_39.pdf)
 - Cycle-Consistent Adversarial Autoencoders for Unsupervised Text Style Transfer, COLING 2020, [[paper]](https://arxiv.org/pdf/2010.00735.pdf)
 
-**Unsupervised Method 2) Prototype Editing**
+**(Unsupervised Method 2) Prototype Editing**
 - Generating sentences by editing prototypes, TACL 2018, [[paper]](https://transacl.org/ojs/index.php/tacl/article/view/1296)
 - Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer, NAACL 2018, [[paper]](https://arxiv.org/pdf/1804.06437), [[code]](https://worksheets.codalab.org/worksheets/0xe3eb416773ed4883bb737662b31b4948/)
 - Mask and Infill: Applying Masked Language Model to Sentiment Transfer, IJCAI 2019, [[paper]](https://arxiv.org/pdf/1908.08039)
@@ -62,13 +62,13 @@ Most are included in our survey, and we also list them here.
 - Challenges in Emotion Style Transfer: An Exploration with a Lexical Substitution Pipeline, SocialNLP, ACL 2020, [[paper]](https://arxiv.org/pdf/2005.07617.pdf)
 
 
-**Unsupervised Method 3) Back-Translation / Pseudo Data Construction**
+**(Unsupervised Method 3) Back-Translation / Pseudo Data Construction**
 - Incorporating Pseudo-Parallel Data for Quantifiable Sequence Editing, EMNLP 2018, [[paper]](https://arxiv.org/pdf/1804.07007)
 - Style Transfer as Unsupervised Machine Translation, Arxiv, [[paper]](https://arxiv.org/pdf/1808.07894)
 - IMaT: Unsupervised Text Attribute Transfer via Iterative Matching and Translation, EMNLP 2019, [[paper]](https://arxiv.org/pdf/1901.11333)
 - Unsupervised Text Generation by Learning from Search, NeurIPS 2020, [[paper]](https://papers.nips.cc/paper/2020/file/7a677bb4477ae2dd371add568dd19e23-Paper.pdf)
 
-**Unsupervised Method 4) Others**
+**(Unsupervised Method 4) Others**
 - Style Transfer Through Multilingual and Feedback-Based Back-Translation, Arxiv 2018, [[paper]](https://arxiv.org/pdf/1809.06284)
 - Unsupervised Controllable Text Formalization, AAAI 2019, [[paper]](https://arxiv.org/pdf/1809.04556), [[code]](https://github.com/parajain/uctf)
 - Large-scale Hierarchical Alignment for Data-driven Text Rewriting, RANLP 2019, [[paper]](https://arxiv.org/pdf/1810.08237)
