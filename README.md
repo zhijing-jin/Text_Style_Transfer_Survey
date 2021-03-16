@@ -18,6 +18,7 @@ Olga Vechtomova, and Rada Mihalcea.
   * [Politeness Transfer (Impolite -> Polite)](#politeness_transfer)
   * [Simplification (Expert <-> Laymen)](#simplification)
   * [Author/Prose Styles](#author_prose_styles)
+  * [Eye-Catchy Rewriting (Plain -> Attractive)](#eye_catchy_rewriting)
   * [Emotion Modification](#emotion_modification)
   * [Detoxification and Debiasing (Toxic/Biased -> Neutral)](#detoxification_and_debiasing)
 * [Downstream Applications](#downstream_applications)
@@ -160,16 +161,33 @@ Olga Vechtomova, and Rada Mihalcea.
 * Politeness Transfer: A Tag and Generate Approach, ACL 2020, [[paper]](https://arxiv.org/pdf/2004.14257.pdf)
 
 <h3 id="simplification">Simplification (Expert <-> Laymen)</h3>
-
-* Expertise Style Transfer: A New Task Towards Better Communication between Experts and Laymen, ACL 2020, [[paper]](https://arxiv.org/pdf/2005.00701.pdf)
+Wikipedia simplification:
+- (2010 COLING) **A monolingual tree-based translation model for sentence simplification.**
+_Zhemin Zhu, Delphine Bernhard, and Iryna Gurevych_. [[paper](https://www.aclweb.org/anthology/C10-1152.pdf)]
+ 
+Medical text simplication:
+* (2019 KDD) **Unsupervised Clinical Language Translation.**
+_Wei-Hung Weng, Yu-An Chung, Peter Szolovits_. [[paper](https://arxiv.org/pdf/1902.01177.pdf)]
+  Dataset: MIMIC-III (non-parallel) 59K documents.
+- (2019 WWW) Evaluating neural text simplification in the medical domain. 
+_Laurens Van den Bercken, Robert-Jan Sips, Christoph Lofi_. [[paper](https://dl.acm.org/doi/pdf/10.1145/3308558.3313630?casa_token=WQIEtRWIgTQAAAAA:nJFh6PMhJ6OewHu9KevGbYQ_nMGFwZG3Tv1FURmDuOsZ7UgvwoVHaolirEzMRuK2PpUjjsU6t8o)]
+  Dataset: 2.2K Expert-to-Layman conversion
+* (2020 ACL) Expertise Style Transfer: A New Task Towards Better Communication between Experts and Laymen, ACL 2020, [[paper]](https://arxiv.org/pdf/2005.00701.pdf)
+  Dataset: MSD (parallel) 114K sentences.
 
 <h3 id="author_prose_styles">Author/Prose Styles</h3>
 
 * Paraphrasing for Style, COLING 2012, [[paper]](https://www.aclweb.org/anthology/C12-1177.pdf)
 * Shakespearizing Modern Language Using Copy-Enriched Sequence to Sequence Models, EMNLP 2017 Workshop, [[paper]](https://arxiv.org/pdf/1707.01161)[[code]](https://github.com/harsh19/Shakespearizing-Modern-English)
 * Evaluating prose style transfer with the Bible, arXiv 2018, [[paper]](https://arxiv.org/pdf/1711.04731)
-* Adapting Language Models for Non-Parallel Author-Stylized Rewriting, AAAI 2020 [[paper]](https://arxiv.org/pdf/1909.09962)
+* (AAAI 2020) **Adapting Language Models for Non-Parallel Author-Stylized Rewriting.** _Bakhtiyar Syed, Gaurav Verma, Balaji Vasan Srinivasan, Anandhavelu Natarajan, Vasudeva Varma_. [[paper]](https://arxiv.org/pdf/1909.09962)
 
+
+<h3 id="eye_catchy_rewriting">Eye-Catchy Rewriting (Plain -> Attractive)</h3>
+- (2016 EMNLP; plain math problem -> engaging stories) **A Theme-Rewriting Approach for Generating Algebra Word Problems.** _Rik Koncel-Kedziorski, Ioannis Konstas, Luke Zettlemoyer, Hannaneh Hajishirzi_ [[paper](https://arxiv.org/pdf/1610.06210.pdf)]
+  Dataset: Star Wars script with 7300 words, Cartoon scripts with 1370 words, 
+- (2020 ACL; plain headline -> attractive headlines) **Hooks in the Headline: Learning to Generate Headlines with Controlled Styles** [[paper]](https://arxiv.org/pdf/2004.01980.pdf)
+  Dataset: 146K NYT+CNN headlines, 500K humorous sentences, 500K romantic sentences, 500K clickbaity headlines.
 <h3 id="emotion_modification">Emotion Modification</h3>
 
 * Challenges in Emotion Style Transfer: An Exploration with a Lexical Substitution Pipeline, SocialNLP, ACL 2020, [[paper]](https://arxiv.org/pdf/2005.07617.pdf)
@@ -205,7 +223,7 @@ Olga Vechtomova, and Rada Mihalcea.
 
 <h3 id="stylized_image_captions">Stylized Image Captions</h3>
 
-* Stylenet: Generating attractive visual captions with styles, CVPR 2017, [[paper]](https://doi.org/10.1109/CVPR.2017.108)
+* StyleNet: Generating attractive visual captions with styles, CVPR 2017, [[paper]](https://doi.org/10.1109/CVPR.2017.108)
 * Unsupervised Stylish Image Description Generation via Domain Layer Norm, AAAI 2019, [[paper]](https://arxiv.org/pdf/1809.06214)
 
 <h3 id="grammatical_error_correction">Grammatical Error Correction</h3>
