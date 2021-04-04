@@ -146,9 +146,11 @@ Olga Vechtomova, and Rada Mihalcea.
 1. (2020 ACL) **Politeness Transfer: A Tag and Generate Approach.** _Aman Madaan, Amrith Setlur, Tanmay Parekh, Barnabas Poczos, Graham Neubig, Yiming Yang, Ruslan Salakhutdinov, Alan W Black, Shrimai Prabhumoye_. [[paper](https://arxiv.org/pdf/2004.14257.pdf)] [[video](Politeness https://github.com/tag-and-generate/)] [[code](https://github.com/tag-and-generate/)]
 
 <h3 id="simplification">Simplification (Expert <-> Laymen)</h3>
+
 Wikipedia simplification:
+
 1. (2010 COLING) **A monolingual tree-based translation model for sentence simplification.** _Zhemin Zhu, Delphine Bernhard, and Iryna Gurevych_. [[paper](https://www.aclweb.org/anthology/C10-1152.pdf)]
- 
+
 Medical text simplication:
 1. (2019 KDD) **Unsupervised Clinical Language Translation.** _Wei-Hung Weng, Yu-An Chung, Peter Szolovits_. [[paper](https://arxiv.org/pdf/1902.01177.pdf)] Dataset: MIMIC-III (non-parallel) 59K documents.
 1. (2019 WWW) **Evaluating neural text simplification in the medical domain.** _Laurens Van den Bercken, Robert-Jan Sips, Christoph Lofi_. [[paper](https://dl.acm.org/doi/pdf/10.1145/3308558.3313630?casa_token=WQIEtRWIgTQAAAAA:nJFh6PMhJ6OewHu9KevGbYQ_nMGFwZG3Tv1FURmDuOsZ7UgvwoVHaolirEzMRuK2PpUjjsU6t8o)] Dataset: 2.2K Expert-to-Layman conversion
@@ -163,8 +165,10 @@ Medical text simplication:
 
 
 <h3 id="eye_catchy_rewriting">Eye-Catchy Rewriting (Plain -> Attractive)</h3>
+
 1. (2016 EMNLP; plain math problem -> engaging stories) **A Theme-Rewriting Approach for Generating Algebra Word Problems.** _Rik Koncel-Kedziorski, Ioannis Konstas, Luke Zettlemoyer, Hannaneh Hajishirzi_. [[paper](https://arxiv.org/pdf/1610.06210.pdf)] Dataset: Star Wars script with 7300 words, Cartoon scripts with 1370 words
 1. (2020 ACL) **Hooks in the Headline: Learning to Generate Headlines with Controlled Styles.** _Di Jin, Zhijing Jin, Joey Tianyi Zhou, Lisa Orii, Peter Szolovits_. [[paper](https://arxiv.org/pdf/2004.01980.pdf)] Dataset: 146K NYT+CNN headlines, 500K humorous sentences, 500K romantic sentences, 500K clickbaity headlines.
+1. (2021 AAAI) **The Style-Content Duality of Attractiveness: Learning to Write Eye-Catching Headlines via Disentanglement.** _Mingzhe Li, Xiuying Chen, Min Yang, Shen Gao, Dongyan Zhao, Rui Yan_. [[paper](https://arxiv.org/pdf/2012.07419.pdf)]
 
 
 <h3 id="emotion_modification">Emotion Modification</h3>
@@ -217,13 +221,13 @@ Medical text simplication:
 
 <h2 id="evaluation_and_analysis">Evaluation and Analysis</h2>
 
-* Evaluating Style Transfer for Text, NAACL 2019, [[paper1]](https://arxiv.org/pdf/1904.02295), [[paper2]](https://dspace.mit.edu/bitstream/handle/1721.1/119569/1076275047-MIT.pdf?sequence=1)
-* Rethinking Text Attribute Transfer: A Lexical Analysis, INLG 2019, [[paper]](https://arxiv.org/pdf/1909.12335), [[code]](https://github.com/FranxYao/pivot_analysis)
-* Unsupervised Evaluation Metrics and Learning Criteria for Non-Parallel Textual Transfer, EMNLP Workshop on Neural Generation and Translation (WNGT) 2019, [[paper]](https://arxiv.org/pdf/1810.11878)
-* The Daunting Task of Real-World Textual Style Transfer Auto-Evaluation, WNGT 2019, [[paper]](https://arxiv.org/pdf/1910.03747)
-* Style-transfer and Paraphrase: Looking for a Sensible Semantic Similarity Metric, Arxiv 2020, [[paper]](https://arxiv.org/pdf/2004.05001.pdf)
-* What is wrong with style transfer for texts? Arxiv, [[paper]](https://arxiv.org/pdf/1808.04365)
-* Style versus Content: A distinction without a (learnable) difference?, COLING 2020,	[[paper]](https://www.aclweb.org/anthology/2020.coling-main.197.pdf)
+1. (2019 NAACL) **Evaluating Style Transfer for Text.** _Remi Mir, Bjarke Felbo, Nick Obradovich, Iyad Rahwan_. [[paper](https://arxiv.org/pdf/1904.02295.pdf)] [[code](https://github.com/passeul/style-transfer-model-evaluation)]
+1. (2019 INLG) **Rethinking Text Attribute Transfer: A Lexical Analysis.** _Yao Fu, Hao Zhou, Jiaze Chen, Lei Li_. [[paper](https://arxiv.org/pdf/1909.12335)] [[code](https://github.com/FranxYao/pivot_analysis)]
+1. (2019 WNGT) **Learning Criteria and Evaluation Metrics for Textual Transfer between Non-Parallel Corpora / Unsupervised Evaluation Metrics and Learning Criteria for Non-Parallel Textual Transfer.** _Richard Yuanzhe Pang, Kevin Gimpel_. [[paper](https://www.aclweb.org/anthology/D19-5614.pdf)]
+1. (2019 arXiv) **The Daunting Task of Real-World Textual Style Transfer Auto-Evaluation.** _Richard Yuanzhe Pang_. [[paper](https://arxiv.org/pdf/1910.03747)]
+1. (2018 arXiv) **What is wrong with style transfer for texts?.** _Alexey Tikhonov, Ivan P. Yamshchikov_. [[paper](https://arxiv.org/pdf/1808.04365)]
+1. (2020 COLING) **Style versus Content: A distinction without a (learnable) difference?.** _Somayeh Jafaritazehjani, Gwénolé Lecorvé, Damien Lolive, John Kelleher_. [[paper](https://www.aclweb.org/anthology/2020.coling-main.197.pdf)]
+1. (2021 AAAI) **Style-transfer and Paraphrase: Looking for a Sensible Semantic Similarity Metric.** _Ivan P. Yamshchikov, Viacheslav Shibaev, Nikolay Khlebnikov, Alexey Tikhonov_. [[paper](https://arxiv.org/pdf/2004.05001.pdf)] [[code](https://github.com/VAShibaev/semantic_similarity_metrics)]
 
 <h2 id="relevant_fields">Relevant Fields</h2>
 
@@ -235,6 +239,8 @@ Medical text simplication:
 * Plug and Play Language Models: A Simple Approach to Controlled Text Generation, ICLR 2020. [[paper]](https://openreview.net/pdf?id=H1edEyBKDS)
 * Exploring Controllable Text Generation Techniques, COLING 2020. [[paper]](https://arxiv.org/pdf/2005.01822.pdf)
 * Controllable and Diverse Text Generation in E-commerce, WWW 2021. [[paper](https://blender.cs.illinois.edu/paper/www2021.pdf)]
+1. (2021 ICLR Oral) **A Distributional Approach to Controlled Text Generation.** _Muhammad Khalifa, Hady Elsahar, Marc Dymetman_. [[paper](https://arxiv.org/pdf/2012.11635.pdf)]
+
 
 <h3 id="unsupervised_machine_translation">Unsupervised Machine Translation</h3>
 
