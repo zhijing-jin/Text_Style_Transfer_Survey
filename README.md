@@ -10,7 +10,7 @@ Olga Vechtomova, and Rada Mihalcea.
     * [Disentanglement](#unsupervised_method_1)
     * [Prototype Editing](#unsupervised_method_2)
     * [Back-Translation / Pseudo Data Construction](#unsupervised_method_3)
-    * [Others](#unsupervised_method_4)
+    * [Paraphrasing](#unsupervised_method_4)
   * [Semi-Supervised](#semi_supervised)
   * [Supervised](#supervised)
 * [Subtasks](#subtasks)
@@ -53,151 +53,130 @@ Olga Vechtomova, and Rada Mihalcea.
 <h3 id="unsupervised">Unsupervised (Non-parallel Data)</h3>
 <h4 id="unsupervised_method_1">(Unsupervised Method 1) Disentanglement</h4>
 
-* Sequence to Better Sequence: Continuous Revision of Combinatorial Structures, ICML 2017, [[paper]](http://proceedings.mlr.press/v70/mueller17a.html), [[code]](https://bitbucket.org/jwmueller/sequence-to-better-sequence/)
-* Toward Controlled Generation of Text, ICML 2017, [[paper]](https://arxiv.org/pdf/1703.00955), [[official code]](https://github.com/asyml/texar/tree/master/examples/text_style_transfer), [[unofficial code]](https://github.com/GBLin5566/toward-controlled-generation-of-text-pytorch)
-* Style Transfer from Non-Parallel Text by Cross-Alignment, NIPS 2017, [[paper]](https://papers.nips.cc/paper/7259-style-transfer-from-non-parallel-text-by-cross-alignment.pdf), [[code]](https://github.com/shentianxiao/language-style-transfer)
-* Adversarially Regularized Autoencoders, ICML 2018, [[paper]](https://arxiv.org/pdf/1706.04223), [[code]](https://github.com/jakezhaojb/ARAE)
-* Zero-Shot Style Transfer in Text Using Recurrent Neural Networks, Arxiv 2017, [[paper]](https://arxiv.org/pdf/1711.04731v1), [[code]](https://github.com/keithecarlson/Zero-Shot-Style-Transfer)
-* Style Transfer in Text: Exploration and Evaluation, AAAI 2018, [[paper]](https://arxiv.org/pdf/1711.06861), [[code]](https://github.com/fuzhenxin/text_style_transfer)
-* SHAPED: Shared-Private Encoder-Decoder for Text Style Adaptation, NAACL 2018, [[paper]](https://arxiv.org/pdf/1804.04093)
-* Sentiment Transfer using Seq2Seq Adversarial Autoencoders, project for CSYE7245 Northeastern University, [[paper]](https://arxiv.org/pdf/1804.04003)
-* Style Transfer Through Back-Translation, ACL 2018, [[paper]](https://arxiv.org/pdf/1804.09000), [[code]](https://github.com/shrimai/Style-Transfer-Through-Back-Translation)
-* Unpaired Sentiment-to-Sentiment Translation: A Cycled Reinforcement Learning Approach, ACL 2018, [[paper]](https://arxiv.org/pdf/1805.05181), [[code]](https://github.com/lancopku/unpaired-sentiment-translation)
-* Fighting Offensive Language on Social Media with Unsupervised Text Style Transfer, ACL 2018, [[paper]](https://arxiv.org/pdf/1805.07685)
-* Unsupervised Text Style Transfer using Language Models as Discriminators, NIPS 2018, [[paper]](https://arxiv.org/pdf/1805.11749)
-* Disentangled Representation Learning for Non-Parallel Text Style Transfer, ACL 2019, [[paper]](https://arxiv.org/pdf/1808.04339), [[code]](https://github.com/vineetjohn/linguistic-style-transfer)
-* Language Style Transfer from Sentences with Arbitrary Unknown Styles, Arxiv, [[paper]](https://arxiv.org/pdf/1808.04071)
-* Learning Sentiment Memories for Sentiment Modification without Parallel Data, EMNLP 2018, [[paper]](https://arxiv.org/pdf/1808.07311), [[code]](https://github.com/lancopku/SMAE)
-* Structured Content Preservation for Unsupervised Text Style Transfer, OpenReview 2018, [[paper]](https://openreview.net/forum?id=S1lCbhAqKX)
-* Content preserving text generation with attribute controls, NIPS 2018, [[paper]](https://arxiv.org/pdf/1811.01135)
-* QuaSE: Sequence Editing under Quantifiable Guidance, EMNLP 2018, [[paper]](http://aclweb.org/anthology/D18-1420)
-* Adversarial Text Generation via Feature-Mover's Distance, NeurIPS 2018, [[paper]](https://arxiv.org/pdf/1809.06297), [[unofficial code]](https://github.com/knok/chainer-fm-gan)
-* Towards Controlled Transformation of Sentiment in Sentences, ICAART 2019, [[paper]](https://arxiv.org/pdf/1901.11467)
-* Reinforcement Learning Based Text Style Transfer without Parallel Training Corpus, NAACL 2019 2019, [[paper]](https://arxiv.org/pdf/1903.10671)
-* Grammatical Error Correction and Style Transfer via Zero-shot Monolingual Translation, Arxiv 2019, [[paper]](https://arxiv.org/pdf/1903.11283)
-* Multiple-Attribute Text Style Transfer (Rewriting), ICLR 2019, [[paper]](https://openreview.net/forum?id=H1g2NhC5KQ)
-* Style Transformer: Unpaired Text Style Transfer without Disentangled Latent Representation, ACL 2019, [[paper]](https://arxiv.org/pdf/1905.05621)
-* A Dual Reinforcement Learning Framework for Unsupervised Text Style Transfer, IJCAI 2019, [[paper]](https://arxiv.org/pdf/1905.10060), [[code]](https://github.com/luofuli/DualLanST)
-* On Variational Learning of Controllable Representations for Text without Supervision, Arxiv 2019, [[paper]](https://arxiv.org/pdf/1905.11975)
-* Revision in Continuous Space: Fine-Grained Control of Text Style Transfer, AAAI 2020, [[paper]](https://arxiv.org/pdf/1905.12304)
-* Controllable Unsupervised Text Attribute Transfer via Editing Entangled Latent Representation, NIPS 2019, [[paper]](https://arxiv.org/pdf/1905.12926), [[code]](https://github.com/nrgeup/controllable-text-attribute-transfer)
-* Disentangled Representation Learning for Non-Parallel Text Style Transfer, ACL 2019, [[paper]](https://www.aclweb.org/anthology/P19-1041), [[code]](https://github.com/vineetjohn/linguistic-style-transfer)
-* A Hierarchical Reinforced Sequence Operation Method for Unsupervised Text Style Transfer, ACL 2019, [[paper]](https://www.aclweb.org/anthology/P19-1482), [[code]](https://github.com/ChenWu98/Point-Then-Operate)
-* Decomposing Textual Information For Style Transfer, WNGT 2019, [[paper]](https://arxiv.org/pdf/1909.12928)
-* Zero-Shot Fine-Grained Style Transfer: Leveraging Distributed Continuous Style Representations to Transfer To Unseen Styles, Arxiv 2019, [[paper]](https://arxiv.org/pdf/1911.03914)
-* A Probabilistic Formulation of Unsupervised Text Style Transfer, ICLR 2020, [[paper]](https://openreview.net/forum?id=HJlA0C4tPS), [[code]](https://github.com/cindyxinyiwang/deep-latent-sequence-model)
-* Generating sentences from disentangled syntactic and semantic spaces, ACL 2019, [[paper]](https://www.aclweb.org/anthology/P19-1602/), [[code]](https://github.com/baoy-nlp/DSS-VAE)
-* SentiInc: Incorporating Sentiment Information into Sentiment Transfer Without Parallel Data, ECIR 2020, [[paper]](https://link.springer.com/content/pdf/10.1007%2F978-3-030-45442-5_39.pdf)
-* Cycle-Consistent Adversarial Autoencoders for Unsupervised Text Style Transfer, COLING 2020, [[paper]](https://arxiv.org/pdf/2010.00735.pdf)
+1. (2017 ICML) **Sequence to Better Sequence: Continuous Revision of Combinatorial Structures.** _Jonas Mueller, David Gifford, Tommi Jaakkola_. [[paper](http://proceedings.mlr.press/v70/mueller17a/mueller17a.pdf)] [[code](https://bitbucket.org/jwmueller/sequence-to-better-sequence/)]
+1. (2017 ICML) **Toward Controlled Generation of Text.** _Zhiting Hu, Zichao Yang, Xiaodan Liang, Ruslan Salakhutdinov, Eric P. Xing_. [[paper](https://arxiv.org/pdf/1703.00955.pdf)] [[code](https://github.com/asyml/texar/tree/master/examples/text_style_transfer)] [[unofficial code](https://github.com/GBLin5566/toward-controlled-generation-of-text-pytorch)]
+1. (2017 NeurIPS) **Style Transfer from Non-Parallel Text by Cross-Alignment.** _Tianxiao Shen, Tao Lei, Regina Barzilay, Tommi Jaakkola_. [[paper](https://papers.nips.cc/paper/7259-style-transfer-from-non-parallel-text-by-cross-alignment.pdf)] [[code](https://github.com/shentianxiao/language-style-transfer)] [[data - Yelp ](https://github.com/shentianxiao/language-style-transfer/tree/master/data/yelp)]
+1. (2017 arXiv) **Zero-Shot Style Transfer in Text Using Recurrent Neural Networks.** _Keith Carlson, Allen Riddell, Daniel Rockmore_. [[paper](https://arxiv.org/pdf/1711.04731v11)] [[code](https://github.com/keithecarlson/Zero-Shot-Style-Transfer)]
+1. (2017 NLPCC) **Unsupervised Automatic Text Style Transfer Using LSTM.** __. [[paper](http://tcci.ccf.org.cn/conference/2017/papers/1135.pdf)]
+1. (2018 AAAI) **Style Transfer in Text: Exploration and Evaluation.** _Zhenxin Fu, Xiaoye Tan, Nanyun Peng, Dongyan Zhao, Rui Yan_. [[paper](https://arxiv.org/pdf/1711.06861.pdf)] [[code](https://github.com/fuzhenxin/text_style_transfer)]
+1. (2018 ICML) **Adversarially Regularized Autoencoders.** _Jake Zhao (Junbo), Yoon Kim, Kelly Zhang, Alexander M. Rush, Yann LeCun_. [[paper](https://arxiv.org/pdf/1706.04223)] [[code](https://github.com/jakezhaojb/ARAE)]
+1. (2018 NAACL) **SHAPED: Shared-Private Encoder-Decoder for Text Style Adaptation.** __. [[paper](https://arxiv.org/pdf/1804.04093)]
+1. (2018 ACL) **Style Transfer Through Back-Translation.** _Shrimai Prabhumoye, Yulia Tsvetkov, Ruslan Salakhutdinov, Alan W Black_. [[paper](https://arxiv.org/pdf/1804.09000)] [[code](https://github.com/shrimai/Style-Transfer-Through-Back-Translation)]
+1. (2018 ACL) **Unpaired Sentiment-to-Sentiment Translation: A Cycled Reinforcement Learning Approach.** _Jingjing Xu, Xu Sun, Qi Zeng, Xuancheng Ren, Xiaodong Zhang, Houfeng Wang, Wenjie Li_. [[paper](https://arxiv.org/pdf/1805.05181)] [[code](https://github.com/lancopku/unpaired-sentiment-translation)]
+1. (2018 EMNLP) **Learning Sentiment Memories for Sentiment Modification without Parallel Data.** _Yi Zhang, Jingjing Xu, Pengcheng Yang, Xu Sun_. [[paper](https://arxiv.org/pdf/1808.07311.pdf)] [[code](https://github.com/lancopku/SMAE)]
+1. (2018 NeurIPS) **Unsupervised Text Style Transfer using Language Models as Discriminators.** _Zichao Yang, Zhiting Hu, Chris Dyer, Eric P. Xing, Taylor Berg-Kirkpatrick_. [[paper](https://arxiv.org/pdf/1805.11749.pdf)]
+1. (2018 NeurIPS) **Content preserving text generation with attribute controls.** _Lajanugen Logeswaran, Honglak Lee, Samy Bengio_. [[paper](https://arxiv.org/pdf/1811.01135.pdf)]
+1. (2018 NeurIPS) **Adversarial Text Generation via Feature-Mover's Distance.** _Liqun Chen, Shuyang Dai, Chenyang Tao, Dinghan Shen, Zhe Gan, Haichao Zhang, Yizhe Zhang, Lawrence Carin_. [[paper](https://arxiv.org/pdf/1809.06297)] [[unofficial code](https://github.com/knok/chainer-fm-gan)]
+1. (2018 arXiv) **Language Style Transfer from Sentences with Arbitrary Unknown Styles.** _Yanpeng Zhao, Wei Bi, Deng Cai, Xiaojiang Liu, Kewei Tu, Shuming Shi_. [[paper]()]
+1. (2018 arXiv) **Structured Content Preservation for Unsupervised Text Style Transfer.** _Youzhi Tian, Zhiting Hu, Zhou Yu_. [[paper](https://arxiv.org/pdf/1810.06526.pdf)] [[code](https://github.com/YouzhiTian/Structured-Content-Preservation-for-Unsupervised-Text-Style-Transfer)]
+1. (2019 NAACL) **Reinforcement Learning Based Text Style Transfer without Parallel Training Corpus.** _Hongyu Gong, Suma Bhat, Lingfei Wu, Jinjun Xiong, Wen-mei Hwu_. [[paper](https://arxiv.org/pdf/1903.10671.pdf)]
+1. (2019 ICLR) **Multiple-Attribute Text Style Transfer (Rewriting).** _Guillaume Lample, Sandeep Subramanian, Eric Smith, Ludovic Denoyer, Marc'Aurelio Ranzato, Y-Lan Boureau_. [[paper](https://arxiv.org/pdf/1811.00552.pdf)] [[code](https://github.com/facebookresearch/MultipleAttributeTextRewriting)]
+1. (2019 ACL) **Disentangled Representation Learning for Non-Parallel Text Style Transfer.** _Vineet John, Lili Mou, Hareesh Bahuleyan, Olga Vechtomova_. [[paper](https://arxiv.org/pdf/1808.04339)] [[code](https://github.com/vineetjohn/linguistic-style-transfer)]
+1. (2019 ACL) **Style Transformer: Unpaired Text Style Transfer without Disentangled Latent Representation.** _Ning Dai, Jianze Liang, Xipeng Qiu, Xuanjing Huang_. [[paper](https://arxiv.org/pdf/1905.05621.pdf)]
+1. (2019 ACL) **A Hierarchical Reinforced Sequence Operation Method for Unsupervised Text Style Transfer.** _Chen Wu, Xuancheng Ren, Fuli Luo, Xu Sun_. [[paper](https://www.aclweb.org/anthology/P19-1482.pdf)] [[code](https://github.com/ChenWu98/Point-Then-Operate)]
+1. (2019 ACL) **Generating Sentences from Disentangled Syntactic and Semantic Spaces.** _Yu Bao, Hao Zhou, Shujian Huang, Lei Li, Lili Mou, Olga Vechtomova, Xin-yu Dai, Jiajun Chen_. [[paper](https://www.aclweb.org/anthology/P19-1602.pdf)] [[code](https://github.com/baoy-nlp/DSS-VAE)]
+1. (2019 IJCAI) **A Dual Reinforcement Learning Framework for Unsupervised Text Style Transfer.** _Fuli Luo, Peng Li, Jie Zhou, Pengcheng Yang, Baobao Chang, Zhifang Sui, Xu Sun_. [[paper](https://arxiv.org/pdf/1905.10060.pdf)] [[code](https://github.com/luofuli/DualLanST)]
+1. (2019 NeurIPS) **Controllable Unsupervised Text Attribute Transfer via Editing Entangled Latent Representation.** _Ke Wang, Hang Hua, Xiaojun Wan_. [[paper](https://arxiv.org/pdf/1905.12926.pdf)] [[code](https://github.com/Nrgeup/controllable-text-attribute-transfer)]
+1. (2019 ICAART) **Towards Controlled Transformation of Sentiment in Sentences.** _Wouter Leeftink, Gerasimos Spanakis_. [[paper](https://arxiv.org/pdf/1901.11467.pdf)]
+1. (2019 WNGT) **Decomposing Textual Information For Style Transfer.** _Ivan P. Yamshchikov, Viacheslav Shibaev, Aleksander Nagaev, Jürgen Jost, Alexey Tikhonov_. [[paper](https://www.aclweb.org/anthology/D19-5613.pdf)] [[code](https://github.com/VAShibaev/textstyletransfer)]
+1. (2019 arXiv) **Grammatical Error Correction and Style Transfer via Zero-shot Monolingual Translation.** _Elizaveta Korotkova, Agnes Luhtaru, Maksym Del, Krista Liin, Daiga Deksne, Mark Fishel_. [[paper](https://arxiv.org/pdf/1903.11283.pdf)]
+1. (2019 arXiv) **Zero-Shot Fine-Grained Style Transfer: Leveraging Distributed Continuous Style Representations to Transfer To Unseen Styles.** _Eric Michael Smith, Diana Gonzalez-Rico, Emily Dinan, Y-Lan Boureau_. [[paper]()]
+1. (2020 AAAI) **Revision in Continuous Space: Unsupervised Text Style Transfer without Adversarial Learning.** _Dayiheng Liu, Jie Fu, Yidan Zhang, Chris Pal, Jiancheng Lv_. [[paper](https://arxiv.org/pdf/1905.12304.pdf)] [[code](https://github.com/dayihengliu/)]
+1. (2020 ICML) **On Variational Learning of Controllable Representations for Text without Supervision.** _Peng Xu, Jackie Chi Kit Cheung, Yanshuai Cao_. [[paper](https://arxiv.org/pdf/1905.11975.pdf)] [[code](https://github.com/BorealisAI/CP-VAE)]
+1. (2020 ICLR) **A Probabilistic Formulation of Unsupervised Text Style Transfer.** _Junxian He, Xinyi Wang, Graham Neubig, Taylor Berg-Kirkpatrick_. [[paper](https://openreview.net/forum?id=HJlA0C4tPS)] [[code](https://github.com/cindyxinyiwang/deep-latent-sequence-model)]
+1. (2020 ACL) **Exploring Contextual Word-level Style Relevance for Unsupervised Style Transfer.** _Chulun Zhou, Liangyu Chen, Jiachen Liu, Xinyan Xiao, Jinsong Su, Sheng Guo, Hua Wu_. [[paper](https://arxiv.org/pdf/2005.02049.pdf)] [[code](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2020-WST)]
+1. (2020 ACL) **Pre-train and Plug-in: Flexible Conditional Text Generation with Variational Auto-Encoders.** _Yu Duan, Canwen Xu, Jiaxin Pei, Jialong Han, Chenliang Li_. [[paper](https://arxiv.org/pdf/1911.03882.pdf)]
+1. (2020 IJCAI) **Text Style Transfer via Learning Style Instance Supported Latent Space.** _Xiaoyuan Yi, Zhenghao Liu, Wenhao Li, Maosong Sun_. [[paper](https://www.ijcai.org/Proceedings/2020/0526.pdf)] [[video](https://www.ijcai.org/proceedings/2020/video/24313)] [[code](github.com/XiaoyuanYi/StyIns)]
+1. (2020 EMNLP) **Contextual Text Style Transfer.** _Yu Cheng, Zhe Gan, Yizhe Zhang, Oussama Elachqar, Dianqi Li, Jingjing Liu_. [[paper](https://www.aclweb.org/anthology/2020.findings-emnlp.263.pdf)] [[code](https://github.com/ych133/CAST)]
+1. (2020 COLING) **Cycle-Consistent Adversarial Autoencoders for Unsupervised Text Style Transfer.** _Yufang Huang, Wentao Zhu, Deyi Xiong, Yiye Zhang, Changjian Hu, Feiyu Xu_. [[paper](https://arxiv.org/pdf/2010.00735.pdf)]
+1. (2020 COLING) **How Positive Are You: Text Style Transfer using Adaptive Style Embedding.** _Heejin Kim, Kyung-Ah Sohn_. [[paper](https://www.aclweb.org/anthology/2020.coling-main.191.pdf)] [[code](https://github.com/kinggodhj/How-Positive-Are-You-Text-Style-Transfer-using-Adaptive-Style-Embedding)]
+1. (2020 ECIR) **SentiInc: Incorporating Sentiment Information into Sentiment Transfer Without Parallel Data.** _Kartikey Pant, Yash Verma, Radhika Mamidi_. [[paper](https://link.springer.com/content/pdf/10.1007%2F978-3-030-45442-5_39.pdf)]
+1. (2020 ECIR) **Reinforced Rewards Framework for Text Style Transfer.** _Abhilasha Sancheti, Kundan Krishna, Balaji Vasan Srinivasan, Anandhavelu Natarajan_. [[paper](https://arxiv.org/pdf/2005.05256.pdf)]
+1. (2020 arXiv) **ST2: Small-data Text Style Transfer via Multi-task Meta-Learning.** _Xiwen Chen, Kenny Q. Zhu_. [[paper](https://arxiv.org/pdf/2004.11742.pdf)]
+1. (2020 arXiv) **Learning to Generate Multiple Style Transfer Outputs for an Input Sentence.** _Kevin Lin, Ming-Yu Liu, Ming-Ting Sun, Jan Kautz_. [[paper](https://arxiv.org/pdf/2002.06525.pdf)]
+
 
 <h4 id="unsupervised_method_2">(Unsupervised Method 2) Prototype Editing</h4>
 
-* Generating sentences by editing prototypes, TACL 2018, [[paper]](https://transacl.org/ojs/index.php/tacl/article/view/1296)
-* Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer, NAACL 2018, [[paper]](https://arxiv.org/pdf/1804.06437), [[code]](https://worksheets.codalab.org/worksheets/0xe3eb416773ed4883bb737662b31b4948/)
-* Mask and Infill: Applying Masked Language Model to Sentiment Transfer, IJCAI 2019, [[paper]](https://arxiv.org/pdf/1908.08039)
-* Transforming Delete, Retrieve, Generate Approach for Controlled Text Style Transfer, EMNLP 2019, [[paper]](https://arxiv.org/pdf/1908.09368), [[code]](https://github.com/agaralabs/transformer-drg-style-transfer)
-* Style Transfer for Texts: Retrain, Report Errors, Compare with Rewrites, EMNLP 2019, [[paper]](https://arxiv.org/pdf/1908.06809.pdf), [[code]](https://github.com/VAShibaev/text_style_transfer)
-* Stable Style Transformer: Delete and Generate Approach with Encoder-Decoder for Text Style Transfer, Arxiv 2020, [[paper]](https://arxiv.org/pdf/2005.12086.pdf)
-* Challenges in Emotion Style Transfer: An Exploration with a Lexical Substitution Pipeline, SocialNLP, ACL 2020, [[paper]](https://arxiv.org/pdf/2005.07617.pdf)
-
+1. (2018 TACL) **Generating sentences by editing prototypes.** _Kelvin Guu, Tatsunori B. Hashimoto, Yonatan Oren, Percy Liang_. [[paper](https://arxiv.org/pdf/1709.08878.pdf)]
+1. (2018 NAACL) **Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer.** _Juncen Li, Robin Jia, He He, Percy Liang_. [[paper](https://arxiv.org/pdf/1804.06437)] [[code](https://github.com/lijuncen/Sentiment-and-Style-Transfer)]
+1. (2019 IJCAI) **Mask and Infill: Applying Masked Language Model to Sentiment Transfer.** _Xing Wu, Tao Zhang, Liangjun Zang, Jizhong Han, Songlin Hu_. [[paper](https://arxiv.org/pdf/1908.08039)] [[code](https://github.com/lancopku/Unpaired-Sentiment-Translation)]
+1. (2019 EMNLP) **Transforming Delete, Retrieve, Generate Approach for Controlled Text Style Transfer.** _Akhilesh Sudhakar, Bhargav Upadhyay, Arjun Maheswaran_. [[paper](https://arxiv.org/pdf/1908.09368)] [[code](https://github.com/agaralabs/transformer-drg-style-transfer)]
+1. (2019 EMNLP) **Style Transfer for Texts: Retrain, Report Errors, Compare with Rewrites.** _Alexey Tikhonov, Viacheslav Shibaev, Aleksander Nagaev, Aigul Nugmanova, Ivan P. Yamshchikov_. [[paper](https://arxiv.org/pdf/1908.06809.pdf)] [[code](https://github.com/VAShibaev/text_style_transfer)]
+1. (2020 EMNLP) **Unsupervised Text Style Transfer with Padded Masked Language Models.** _Eric Malmi, Aliaksei Severyn, Sascha Rothe_. [[paper](https://arxiv.org/pdf/2010.01054.pdf)]
+1. (2020 INLG) **Stable Style Transformer: Delete and Generate Approach with Encoder-Decoder for Text Style Transfer.** _Joosung Lee_. [[paper](https://arxiv.org/pdf/2005.12086.pdf)] [[code](https://github.com/rungjoo/Stable-Style-Transformer)]
 
 
 <h4 id="unsupervised_method_3">(Unsupervised Method 3) Back-Translation / Pseudo Data Construction</h4>
 
-* Incorporating Pseudo-Parallel Data for Quantifiable Sequence Editing, EMNLP 2018, [[paper]](https://arxiv.org/pdf/1804.07007)
-* Style Transfer as Unsupervised Machine Translation, Arxiv, [[paper]](https://arxiv.org/pdf/1808.07894)
-* IMaT: Unsupervised Text Attribute Transfer via Iterative Matching and Translation, EMNLP 2019, [[paper]](https://arxiv.org/pdf/1901.11333)
-* Unsupervised Text Generation by Learning from Search, NeurIPS 2020, [[paper]](https://papers.nips.cc/paper/2020/file/7a677bb4477ae2dd371add568dd19e23-Paper.pdf)
+1. (2018 EMNLP) **QuaSE: Sequence Editing under Quantifiable Guidance.** _Yi Liao, Lidong Bing, Piji Li, Shuming Shi, Wai Lam, Tong Zhang_. [[paper](https://arxiv.org/pdf/1804.07007.pdf)] [[code](https://bitbucket.org/leoeaton/quase/src/master/)]
+1. (2018 arXiv) **Style Transfer as Unsupervised Machine Translation.** __. [[paper](https://arxiv.org/pdf/1808.07894.pdf)]
+1. (2019 EMNLP) **IMaT: Unsupervised Text Attribute Transfer via Iterative Matching and Translation.** _Zhijing Jin, Di Jin, Jonas Mueller, Nicholas Matthews, Enrico Santus_. [[paper](https://arxiv.org/pdf/1901.11333.pdf)] [[code](https://github.com/zhijing-jin/IMaT)]
+1. (2019 RANLP) **Large-scale Hierarchical Alignment for Data-driven Text Rewriting.** _Nikola I. Nikolov, Richard H.R. Hahnloser_. [[paper](https://arxiv.org/pdf/1810.08237.pdf)] [[code](https://github.com/ninikolov/lha)]
+1. (2020 NeurIPS) **Unsupervised Text Generation by Learning from Search.** _Jingjing Li, Zichao Li, Lili Mou, Xin Jiang, Michael R. Lyu, Irwin King_. [[paper](https://papers.nips.cc/paper/2020/file/7a677bb4477ae2dd371add568dd19e23-Paper.pdf)]
 
-<h4 id="unsupervised_method_4">(Unsupervised Method 4) Others</h4>
 
-* Style Transfer Through Multilingual and Feedback-Based Back-Translation, Arxiv 2018, [[paper]](https://arxiv.org/pdf/1809.06284)
-* Unsupervised Controllable Text Formalization, AAAI 2019, [[paper]](https://arxiv.org/pdf/1809.04556), [[code]](https://github.com/parajain/uctf)
-* Large-scale Hierarchical Alignment for Data-driven Text Rewriting, RANLP 2019, [[paper]](https://arxiv.org/pdf/1810.08237)
-* Learning Criteria and Evaluation Metrics for Textual Transfer between Non-Parallel Corpora, Arxiv 2018, [[paper]](https://arxiv.org/pdf/1810.11878)
-* Formality Style Transfer with Hybrid Textual Annotations, Arxiv 2019, [[paper]](https://arxiv.org/pdf/1903.06353)
-* Domain Adaptive Text Style Transfer, EMNLP 2019, [[paper]](https://arxiv.org/pdf/1908.09395), [[code]](https://github.com/cookielee77/DAST)
-* Expertise Style Transfer: A New Task Towards Better Communication between Experts and Laymen, ACL 2020, [[paper]](https://arxiv.org/pdf/2005.00701.pdf)
-* Contextual Text Style Transfer, Arxiv 2020, [[paper]](https://arxiv.org/pdf/2005.00136.pdf)
-* Exploring Contextual Word-level Style Relevance for Unsupervised Style Transfer, ACL 2020, [[paper]](https://arxiv.org/pdf/2005.02049.pdf)
-* ST$^2$: Small-data Text Style Transfer via Multi-task Meta-Learning, Arxiv 2020, [[paper]](https://arxiv.org/pdf/2004.11742)
-* Reinforced Rewards Framework for Text Style Transfer, ECIR 2020, [[paper]](https://arxiv.org/pdf/2005.05256)
-* Unsupervised Automatic Text Style Transfer Using LSTM, NLPCC 2017, [[paper]](http://tcci.ccf.org.cn/conference/2017/papers/1135.pdf)
-* Text Style Transfer via Learning Style Instance Supported Latent Space, IJCAI 2020, [[paper]](https://www.ijcai.org/Proceedings/2020/0526.pdf)
-* Learning to Generate Multiple Style Transfer Outputs for an Input Sentence, Arxiv 2020, [[paper]](https://arxiv.org/pdf/2002.06525)
-* Pre-train and Plug-in: Flexible Conditional Text Generation with Variational Auto-Encoders, ACL 2020, [[paper]](https://arxiv.org/pdf/1911.03882.pdf)
-* Unsupervised Text Style Transfer with Padded Masked Language Models, EMNLP 2020, [[paper]](https://arxiv.org/pdf/2010.01054.pdf)
-* Reformulating Unsupervised Style Transfer as Paraphrase Generation, EMNLP 2020, [[paper]](https://arxiv.org/pdf/2010.05700.pdf)
-* DGST: a Dual-Generator Network for Text Style Transfer, EMNLP 2020, [[paper]](https://arxiv.org/pdf/2010.14557.pdf)
-* How Positive Are You: Text Style Transfer Using Adaptive Style Embedding, EMNLP 2020, [[paper]](https://www.aclweb.org/anthology/2020.coling-main.191.pdf)
-* Formality Style Transfer with Shared Latent Space, COLING 2020, [[paper]](https://www.aclweb.org/anthology/2020.coling-main.203.pdf)
-* Effective writing style transfer via combinatorial paraphrasing, Proc. Priv. Enhancing Technol. 2020, [[paper]](https://doi.org/10.2478/popets-2020-0068)
+<h4 id="unsupervised_method_4">(Unsupervised Method 4) Paraphrasing</h4>
+
+1. (2020 EMNLP) **Reformulating Unsupervised Style Transfer as Paraphrase Generation.** _Kalpesh Krishna, John Wieting, Mohit Iyyer_. [[paper](https://arxiv.org/pdf/2010.05700.pdf)] [[video](https://slideslive.com/38938942/reformulating-unsupervised-style-transfer-as-paraphrase-generation)] [[code](https://github.com/martiansideofthemoon/style-transfer-paraphrase)]
+1. (2020 EMNLP) **DGST: a Dual-Generator Network for Text Style Transfer.** _Xiao Li, Guanyi Chen, Chenghua Lin, Ruizhe Li_. [[paper](https://arxiv.org/pdf/2010.14557.pdf)]
+1. (2020 PETS) **Effective writing style imitation via combinatorial paraphrasing.** _Tommi Gröndahl, N. Asokan_. [[paper](https://arxiv.org/pdf/1905.13464.pdf)]
 
 
 <h3 id="semi_supervised">Semi-Supervised</h3>
 
-* Semi-supervised Text Style Transfer: Cross Projection in Latent Space, EMNLP 2019, [[paper]](https://arxiv.org/pdf/1909.11493)
-* Parallel Data Augmentation for Formality Style Transfer, ACL 2020, [[paper]](https://arxiv.org/pdf/2005.07522.pdf)
-
-<h3 id="supervised">Supervised</h3>
-
-* Shakespearizing Modern Language Using Copy-Enriched Sequence to Sequence Models, EMNLP 2017 Workshop, [[paper]](https://arxiv.org/pdf/1707.01161)[[code]](https://github.com/harsh19/Shakespearizing-Modern-English)
-* Evaluating prose style transfer with the Bible 2018, [[paper]](https://arxiv.org/pdf/1711.04731)
-* Harnessing Pre-Trained Neural Networks with Rules for Formality Style Transfer, EMNLP 2019, [[paper]](https://www.aclweb.org/anthology/D19-1365/), [[code]](https://github.com/jimth001/formality_emnlp19)
-* Automatically Neutralizing Subjective Bias in Text, AAAI 2020, [[paper]](https://nlp.stanford.edu/pubs/pryzant2020bias.pdf)
+1. (2019 EMNLP) **Semi-supervised Text Style Transfer: Cross Projection in Latent Space.** _Mingyue Shang, Piji Li, Zhenxin Fu, Lidong Bing, Dongyan Zhao, Shuming Shi, Rui Yan_. [[paper](https://arxiv.org/pdf/1909.11493.pdf)]
 
 
 <h2 id="subtasks">Subtasks</h2>
 
 <h3 id="formality_transfer">Formality Transfer (Informal <-> Formal)</h3>
 
-* Dear Sir or Madam, May I introduce the YAFC Corpus: Corpus, Benchmarks and Metrics for Formality Style Transfer, NAACL-HLT 2018, [[paper]](https://arxiv.org/pdf/1803.06535)
-* Harnessing Pre-Trained Neural Networks with Rules for Formality Style Transfer, EMNLP 2019, [[paper]](https://www.aclweb.org/anthology/D19-1365/), [[code]](https://github.com/jimth001/formality_emnlp19)
-* Parallel Data Augmentation for Formality Style Transfer, ACL 2020, [[paper]](https://arxiv.org/pdf/2005.07522.pdf)
+1. (2018 NAACL) **Dear Sir or Madam, May I introduce the YAFC Dataset: Corpus, Benchmarks and Metrics for Formality Style Transfer.** _Sudha Rao, Joel Tetreault_. [[paper](https://arxiv.org/pdf/1803.06535.pdf)] [[code](https://github.com/raosudha89/GYAFC-corpus)] [[data - Formality ](https://github.com/raosudha89/GYAFC-corpus)]
+1. (2019 AAAI) **Unsupervised Controllable Text Formalization.** _Parag Jain, Abhijit Mishra, Amar Prakash Azad, Karthik Sankaranarayanan_. [[paper](https://arxiv.org/pdf/1809.04556)] [[code](https://github.com/parajain/uctf)]
+1. (2019 arXiv) **Formality Style Transfer with Hybrid Textual Annotations.** _Ruochen Xu, Tao Ge, Furu Wei_. [[paper](https://arxiv.org/pdf/1903.06353.pdf)]
+1. (2019 EMNLP) **Domain Adaptive Text Style Transfer.** _Dianqi Li, Yizhe Zhang, Zhe Gan, Yu Cheng, Chris Brockett, Ming-Ting Sun, Bill Dolan_. [[paper](https://arxiv.org/pdf/1908.09395.pdf)] [[code](https://github.com/cookielee77/DAST)]
+1. (2019 EMNLP) **Harnessing Pre-Trained Neural Networks with Rules for Formality Style Transfer.** _Yunli Wang, Yu Wu, Lili Mou, Zhoujun Li, Wenhan Chao_. [[paper](https://www.aclweb.org/anthology/D19-1365/)] [[code](https://github.com/jimth001/formality_emnlp19)]
+1. (2020 COLING) **Formality Style Transfer with Shared Latent Space.** _Yunli Wang, Yu Wu, Lili Mou, Zhoujun Li, Wenhan Chao_. [[paper](https://www.aclweb.org/anthology/2020.coling-main.203.pdf)] [[code](https://github.com/jimth001/formality_style_transfer_)]
+1. (2020 ACL) **Parallel Data Augmentation for Formality Style Transfer.** _Yi Zhang, Tao Ge, Xu Sun_. [[paper](https://arxiv.org/pdf/2005.07522.pdf)] [[code](https://github.com/lancopku/Augmented_Data_for_FST)]
 
 <h3 id="politeness_transfer">Politeness Transfer (Impolite -> Polite)</h3>
 
-* Polite dialogue generation without parallel data, TACL 2018, [[paper]](https://doi.org/10.1162/tacl_a_00027)
-* Politeness Transfer: A Tag and Generate Approach, ACL 2020, [[paper]](https://arxiv.org/pdf/2004.14257.pdf)
+1. (2018 TACL) **Polite dialogue generation without parallel data.** _Tong Niu, Mohit Bansal_. [[paper](https://watermark.silverchair.com/tacl_a_00027.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAqkwggKlBgkqhkiG9w0BBwagggKWMIICkgIBADCCAosGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMdDYQr39GPklZ_M-TAgEQgIICXFbyhaOxmtgwYYgXOGAJtZfP2w2pVWIg5HzgDDYKnt9hJ2XkY5a-uplf_UPSoyRcAlEoIOYhHnL9i1CzChK37bA-y5vUQdldwBYc5pToXaMl1QCFveKDxANV8WMeAYPbLEVNJnZnpYlRGs9AXYqjlfMeeL7cUAwV0aR5cwq8qwrQt-NLUUHGT3hIu0Z0Dhwx878xafjmR2IBbgtYhsdZcfXAHiEtoZCczspDghywH_gV6Q4FShjMLS1B9Djx8EpbBW15UAam0-k6KgGj8ZsevrnnCzROemaHXdpWhTIzVTnkkvsNeHaj-1ML9x9MjySUhsB6DW0nebkc6mbrQiZyCSdXB2nP429yYUwsjDKB_NjmbjB-bwfmgAoQnbK9_QNfDNCOPmAtsyWCRvCzy1SnaDY4WDa3zB8AeWJtTwoYh0VH8SLOE_7McVwoq0R65cDtikNW0uoZueANTFtIoFyNFXCvBMNMJzAd0txymZp_BPggE3iVejYUR7LCxfdPhnknP9yMzyBnKuX9HoWMhQlbXyl74MV2Oi7vwcPEFUDo2hlYilWNGpJfcfvlUEFATnbeftJ5H96f-L3q5z6zNPWujCY5BaO_MxuTosTB6SusA8h95ly7DC8mAz4IJBgEGrlov89SXROEWcbKYMLrSJdqD9LbDmU6lvc2GFhbppKnwvYN3L6zAcbIUSgAecSU2Ognt3FSDcOtKX255nTcO4EaLDa7iBcfftHLkYq2uCQqA_2jAaw-F6LORy5THOOP-CWPTzHzdVG120Qkqz-2ldoRAfe4Qkcoq58eUx9GlcE)]
+1. (2020 ACL) **Politeness Transfer: A Tag and Generate Approach.** _Aman Madaan, Amrith Setlur, Tanmay Parekh, Barnabas Poczos, Graham Neubig, Yiming Yang, Ruslan Salakhutdinov, Alan W Black, Shrimai Prabhumoye_. [[paper](https://arxiv.org/pdf/2004.14257.pdf)] [[video](Politeness https://github.com/tag-and-generate/)] [[code](https://github.com/tag-and-generate/)]
 
 <h3 id="simplification">Simplification (Expert <-> Laymen)</h3>
 Wikipedia simplification:
-- (2010 COLING) **A monolingual tree-based translation model for sentence simplification.**
-_Zhemin Zhu, Delphine Bernhard, and Iryna Gurevych_. [[paper](https://www.aclweb.org/anthology/C10-1152.pdf)]
+1. (2010 COLING) **A monolingual tree-based translation model for sentence simplification.** _Zhemin Zhu, Delphine Bernhard, and Iryna Gurevych_. [[paper](https://www.aclweb.org/anthology/C10-1152.pdf)]
  
 Medical text simplication:
-* (2019 KDD) **Unsupervised Clinical Language Translation.**
-_Wei-Hung Weng, Yu-An Chung, Peter Szolovits_. [[paper](https://arxiv.org/pdf/1902.01177.pdf)]
-  Dataset: MIMIC-III (non-parallel) 59K documents.
-- (2019 WWW) Evaluating neural text simplification in the medical domain. 
-_Laurens Van den Bercken, Robert-Jan Sips, Christoph Lofi_. [[paper](https://dl.acm.org/doi/pdf/10.1145/3308558.3313630?casa_token=WQIEtRWIgTQAAAAA:nJFh6PMhJ6OewHu9KevGbYQ_nMGFwZG3Tv1FURmDuOsZ7UgvwoVHaolirEzMRuK2PpUjjsU6t8o)]
-  Dataset: 2.2K Expert-to-Layman conversion
-* (2020 ACL) Expertise Style Transfer: A New Task Towards Better Communication between Experts and Laymen, ACL 2020, [[paper]](https://arxiv.org/pdf/2005.00701.pdf)
-  Dataset: MSD (parallel) 114K sentences.
+1. (2019 KDD) **Unsupervised Clinical Language Translation.** _Wei-Hung Weng, Yu-An Chung, Peter Szolovits_. [[paper](https://arxiv.org/pdf/1902.01177.pdf)] Dataset: MIMIC-III (non-parallel) 59K documents.
+1. (2019 WWW) **Evaluating neural text simplification in the medical domain.** _Laurens Van den Bercken, Robert-Jan Sips, Christoph Lofi_. [[paper](https://dl.acm.org/doi/pdf/10.1145/3308558.3313630?casa_token=WQIEtRWIgTQAAAAA:nJFh6PMhJ6OewHu9KevGbYQ_nMGFwZG3Tv1FURmDuOsZ7UgvwoVHaolirEzMRuK2PpUjjsU6t8o)] Dataset: 2.2K Expert-to-Layman conversion
+1. (2020 ACL) **Expertise Style Transfer: A New Task Towards Better Communication between Experts and Laymen.** _Yixin Cao, Ruihao Shui, Liangming Pan, Min-Yen Kan, Zhiyuan Liu, Tat-Seng Chua_. [[paper](https://arxiv.org/pdf/2005.00701.pdf)] [[code](https://srhthu.github.io/expertise-style-transfer/)] [[data - MSD (parallel) ](https://srhthu.github.io/expertise-style-transfer/)] Dataset: MSD (parallel) 114K sentences.
 
 <h3 id="author_prose_styles">Author/Prose Styles</h3>
 
-* Paraphrasing for Style, COLING 2012, [[paper]](https://www.aclweb.org/anthology/C12-1177.pdf)
-* Shakespearizing Modern Language Using Copy-Enriched Sequence to Sequence Models, EMNLP 2017 Workshop, [[paper]](https://arxiv.org/pdf/1707.01161)[[code]](https://github.com/harsh19/Shakespearizing-Modern-English)
-* Evaluating prose style transfer with the Bible, arXiv 2018, [[paper]](https://arxiv.org/pdf/1711.04731)
-* (AAAI 2020) **Adapting Language Models for Non-Parallel Author-Stylized Rewriting.** _Bakhtiyar Syed, Gaurav Verma, Balaji Vasan Srinivasan, Anandhavelu Natarajan, Vasudeva Varma_. [[paper]](https://arxiv.org/pdf/1909.09962)
+1. (2012 COLING) **Paraphrasing for Style.** _Wei Xu, Alan Ritter, Bill Dolan, Ralph Grishman, Colin Cherry_. [[paper](https://www.aclweb.org/anthology/C12-1177.pdf)]
+1. (2017 EMNLP Workshop) **Shakespearizing Modern Language Using Copy-Enriched Sequence to Sequence Models.** _Harsh Jhamtani, Varun Gangal, Eduard Hovy, Eric Nyberg_. [[paper](https://arxiv.org/pdf/1707.01161.pdf)] [[code](https://github.com/harsh19/Shakespearizing-Modern-English)]
+1. (2018 Royal Society open science) **Evaluating prose style transfer with the Bible.** _Keith Carlson, Allen Riddell, Daniel Rockmore_. [[paper](https://arxiv.org/pdf/1711.04731.pdf)] [[code](https://github.com/keithecarlson/StyleTransferBibleData)] [[data - Bible ](https://github.com/keithecarlson/StyleTransferBibleData)]
+1. (2020 AAAI) **Adapting Language Models for Non-Parallel Author-Stylized Rewriting.** _Bakhtiyar Syed, Gaurav Verma, Balaji Vasan Srinivasan, Anandhavelu Natarajan, Vasudeva Varma_. [[paper](https://arxiv.org/pdf/1909.09962)]
 
 
 <h3 id="eye_catchy_rewriting">Eye-Catchy Rewriting (Plain -> Attractive)</h3>
-- (2016 EMNLP; plain math problem -> engaging stories) **A Theme-Rewriting Approach for Generating Algebra Word Problems.** _Rik Koncel-Kedziorski, Ioannis Konstas, Luke Zettlemoyer, Hannaneh Hajishirzi_ [[paper](https://arxiv.org/pdf/1610.06210.pdf)]
-  Dataset: Star Wars script with 7300 words, Cartoon scripts with 1370 words, 
-- (2020 ACL; plain headline -> attractive headlines) **Hooks in the Headline: Learning to Generate Headlines with Controlled Styles** [[paper]](https://arxiv.org/pdf/2004.01980.pdf)
-  Dataset: 146K NYT+CNN headlines, 500K humorous sentences, 500K romantic sentences, 500K clickbaity headlines.
+1. (2016 EMNLP; plain math problem -> engaging stories) **A Theme-Rewriting Approach for Generating Algebra Word Problems.** _Rik Koncel-Kedziorski, Ioannis Konstas, Luke Zettlemoyer, Hannaneh Hajishirzi_. [[paper](https://arxiv.org/pdf/1610.06210.pdf)] Dataset: Star Wars script with 7300 words, Cartoon scripts with 1370 words
+1. (2020 ACL) **Hooks in the Headline: Learning to Generate Headlines with Controlled Styles.** _Di Jin, Zhijing Jin, Joey Tianyi Zhou, Lisa Orii, Peter Szolovits_. [[paper](https://arxiv.org/pdf/2004.01980.pdf)] Dataset: 146K NYT+CNN headlines, 500K humorous sentences, 500K romantic sentences, 500K clickbaity headlines.
+
+
 <h3 id="emotion_modification">Emotion Modification</h3>
 
-* Challenges in Emotion Style Transfer: An Exploration with a Lexical Substitution Pipeline, SocialNLP, ACL 2020, [[paper]](https://arxiv.org/pdf/2005.07617.pdf)
+1. (2020 ACL Workshop) **Challenges in Emotion Style Transfer: An Exploration with a Lexical Substitution Pipeline.** _David Helbig, Enrica Troiano, Roman Klinger_. [[paper](https://arxiv.org/pdf/2005.07617.pdf)]
 
 <h3 id="detoxification_and_debiasing">Detoxification and Debiasing (Toxic/Biased -> Neutral)</h3>
 
-* Fighting Offensive Language on Social Media with Unsupervised Text Style Transfer, ACL 2018, [[paper]](https://arxiv.org/pdf/1805.07685)
-* Towards A Friendly Online Community: An Unsupervised Style Transfer Framework for Profanity Redaction, COLING 2020, [[paper]](https://arxiv.org/pdf/2011.00403.pdf)
-* Automatically Neutralizing Subjective Bias in Text, AAAI 2020, [[paper]](https://nlp.stanford.edu/pubs/pryzant2020bias.pdf)
-* PowerTransformer: Unsupervised Controllable Revision for Biased Language Correction, EMNLP 2020, [[paper]](https://www.aclweb.org/anthology/2020.emnlp-main.602.pdf)
+1. (2018 ACL) **Fighting Offensive Language on Social Media with Unsupervised Text Style Transfer.** _Cicero Nogueira dos Santos, Igor Melnyk, Inkit Padhi_. [[paper](https://arxiv.org/pdf/1805.07685.pdf)]
+1. (2020 AAAI) **Automatically Neutralizing Subjective Bias in Text.** _Reid Pryzant, Richard Diehl Martinez, Nathan Dass, Sadao Kurohashi, Dan Jurafsky, Diyi Yang_. [[paper](https://arxiv.org/pdf/1911.09709.pdf)] [[code](https://github.com/rpryzant/neutralizing-bias)]
+1. (2020 COLING) **Towards A Friendly Online Community: An Unsupervised Style Transfer Framework for Profanity Redaction.** _Minh Tran, Yipeng Zhang, Mohammad Soleymani_. [[paper](https://arxiv.org/pdf/2011.00403.pdf)]
+1. (2020 EMNLP) **Unsupervised Controllable Revision for Biased Language Correction.** _Xinyao Ma, Maarten Sap, Hannah Rashkin, Yejin Choi_. [[paper](https://www.aclweb.org/anthology/2020.emnlp-main.602.pdf)]
 
 <h2 id="downstream_applications">Downstream Applications</h2>
 
