@@ -174,6 +174,7 @@ Medical text simplication:
 <h3 id="emotion_modification">Emotion Modification</h3>
 
 1. (2020 ACL Workshop) **Challenges in Emotion Style Transfer: An Exploration with a Lexical Substitution Pipeline.** _David Helbig, Enrica Troiano, Roman Klinger_. [[paper](https://arxiv.org/pdf/2005.07617.pdf)]
+2. (2021 WWW) **Towards Facilitating Empathic Conversations in Online Mental Health Support: A Reinforcement Learning Approach.** _Ashish Sharma, Inna W. Lin, Adam S. Miner, David C. Atkins, Tim Althoff_. [[paper](https://arxiv.org/pdf/2101.07714.pdf)]
 
 <h3 id="detoxification_and_debiasing">Detoxification and Debiasing (Toxic/Biased -> Neutral)</h3>
 
