@@ -282,9 +282,15 @@ Medical text simplication:
 
 <h3 id="review_and_thesis">Review and Thesis</h3>
 
-* Deep Learning for Text Attribute Transfer: A Survey, arXiv 2020, [[paper]](https://arxiv.org/pdf/2011.00416.pdf)
-* Text Style Transfer: A Review and Experiment Evaluation, arXiv 2020, [[paper]](https://arxiv.org/pdf/2010.12742.pdf)
-* Controllable Text Generation: Should machines reflect the way humans interact in society?, PhD thesis at CMU 2020, [[paper]](https://www.cs.cmu.edu/~sprabhum/docs/proposal.pdf) [[slides]](https://www.cs.cmu.edu/~sprabhum/docs/Thesis_Proposal.pdf)
+* (2018 JMLR) **Survey of the State of the Art in Natural LanguageGeneration: Core tasks, applications and evaluation.**
+_Albert Gatt, Emiel Krahmer_.
+[[paper](https://www.jair.org/index.php/jair/article/view/11173/26378) (Section 5-6 are related to styles in text)]
+* (2020 arXiv) **Text Style Transfer: A Review and Experiment Evaluation.**
+_Zhiqiang Hu, Roy Ka-Wei Lee, Charu C. Aggarwal, Aston Zhang_.
+[[paper]](https://arxiv.org/pdf/2010.12742.pdf)
+* (2020) **Controllable Text Generation: Should machines reflect the way humans interact in society?**
+_Shrimai Prabhumoye_.
+[[paper]](https://www.cs.cmu.edu/~sprabhum/docs/proposal.pdf) [[slides]](https://www.cs.cmu.edu/~sprabhum/docs/Thesis_Proposal.pdf)
 
 <h3 id="other_github_repo">Other GitHub Repo</h3>
 
