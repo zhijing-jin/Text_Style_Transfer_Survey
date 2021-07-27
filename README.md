@@ -229,6 +229,7 @@ Medical text simplication:
 1. (2018 arXiv) **What is wrong with style transfer for texts?.** _Alexey Tikhonov, Ivan P. Yamshchikov_. [[paper](https://arxiv.org/pdf/1808.04365)]
 1. (2020 COLING) **Style versus Content: A distinction without a (learnable) difference?.** _Somayeh Jafaritazehjani, Gwénolé Lecorvé, Damien Lolive, John Kelleher_. [[paper](https://www.aclweb.org/anthology/2020.coling-main.197.pdf)]
 1. (2021 AAAI) **Style-transfer and Paraphrase: Looking for a Sensible Semantic Similarity Metric.** _Ivan P. Yamshchikov, Viacheslav Shibaev, Nikolay Khlebnikov, Alexey Tikhonov_. [[paper](https://arxiv.org/pdf/2004.05001.pdf)] [[code](https://github.com/VAShibaev/semantic_similarity_metrics)]
+1. (2021 NAACL Workshop) **A Review of Human Evaluation for Style Transfer.** _Eleftheria Briakou, Sweta Agrawal, Ke Zhang, Joel Tetreault, Marine Carpuat_. [[paper](https://arxiv.org/pdf/2106.04747.pdf)]
 
 <h2 id="relevant_fields">Relevant Fields</h2>
 
