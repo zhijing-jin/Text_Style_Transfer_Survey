@@ -26,6 +26,7 @@ Olga Vechtomova, and Rada Mihalcea.
   * [Stylized Dialog/Response Generation](#stylized_dialog_response_generation)
   * [Summarization with Styles](#summarization_with_styles)
   * [Simile Generation](#simile_generation)
+  * [Story Generation with Styles](#story_generation_with_styles)
   * [Stylized Image Captions](#stylized_image_captions)
   * [Grammatical Error Correction](#grammatical_error_correction)
 * [Datasets](#datasets)
@@ -94,7 +95,17 @@ Olga Vechtomova, and Rada Mihalcea.
 1. (2020 ECIR) **Reinforced Rewards Framework for Text Style Transfer.** _Abhilasha Sancheti, Kundan Krishna, Balaji Vasan Srinivasan, Anandhavelu Natarajan_. [[paper](https://arxiv.org/pdf/2005.05256.pdf)]
 1. (2020 arXiv) **ST2: Small-data Text Style Transfer via Multi-task Meta-Learning.** _Xiwen Chen, Kenny Q. Zhu_. [[paper](https://arxiv.org/pdf/2004.11742.pdf)]
 1. (2020 arXiv) **Learning to Generate Multiple Style Transfer Outputs for an Input Sentence.** _Kevin Lin, Ming-Yu Liu, Ming-Ting Sun, Jan Kautz_. [[paper](https://arxiv.org/pdf/2002.06525.pdf)]
-
+1. (2021 NAACL) **On Learning Text Style Transfer with Direct Rewards.**
+_Yixin Liu, Graham Neubig, John Wieting_. [[paper](https://arxiv.org/pdf/2010.12771.pdf)]
+1. (2021 NAACL) **Multi-Style Transfer with Discriminative Feedback on Disjoint Corpus.**
+_Navita Goyal, Balaji Vasan Srinivasan, Anandhavelu Natarajan, Abhilasha Sancheti_. [[paper](https://arxiv.org/pdf/2010.11578.pdf)]
+1. (2021 ACL) **A Hierarchical VAE for Calibrating Attributes while Generating Text using Normalizing Flow.** _Bidisha Samanta, Mohit Agrawal, NIloy Ganguly_. [[paper](https://aclanthology.org/2021.acl-long.187.pdf)]
+1. (2021 ACL) **Enhancing Content Preservation in Text Style Transfer Using Reverse Attention and Conditional Layer Normalization.**
+_Dongkyu Lee, Zhiliang Tian, Lanqing Xue and Nevin L. Zhang_. [[paper](https://arxiv.org/pdf/2108.00449.pdf)]
+1. (2021 ACL) **Counterfactuals to Control Latent Disentangled Text Representations for Style Transfer.**
+_Sharmila Reddy Nangi, Niyati Chhaya, Sopan Khosla, Nikhil Kaushik and Harshit Nyati_. [[paper](https://aclanthology.org/2021.acl-short.7.pdf)]
+1. (2021 ACL) **TextSETTR: Few-Shot Text Style Extraction and Tunable Targeted Restyling.**
+_Parker Riley, Noah Constant, Mandy Guo, Girish Kumar, David Uthus, Zarana Parekh_. [[paper](https://aclanthology.org/2021.acl-long.293.pdf)]
 
 <h4 id="unsupervised_method_2">(Unsupervised Method 2) Prototype Editing</h4>
 
@@ -105,6 +116,10 @@ Olga Vechtomova, and Rada Mihalcea.
 1. (2019 EMNLP) **Style Transfer for Texts: Retrain, Report Errors, Compare with Rewrites.** _Alexey Tikhonov, Viacheslav Shibaev, Aleksander Nagaev, Aigul Nugmanova, Ivan P. Yamshchikov_. [[paper](https://arxiv.org/pdf/1908.06809.pdf)] [[code](https://github.com/VAShibaev/text_style_transfer)]
 1. (2020 EMNLP) **Unsupervised Text Style Transfer with Padded Masked Language Models.** _Eric Malmi, Aliaksei Severyn, Sascha Rothe_. [[paper](https://arxiv.org/pdf/2010.01054.pdf)]
 1. (2020 INLG) **Stable Style Transformer: Delete and Generate Approach with Encoder-Decoder for Text Style Transfer.** _Joosung Lee_. [[paper](https://arxiv.org/pdf/2005.12086.pdf)] [[code](https://github.com/rungjoo/Stable-Style-Transformer)]
+1. (2021 ACL Findings) **LEWIS: Levenshtein Editing for Unsupervised Text Style Transfer.**
+_Machel Reid, Victor Zhong_. [[paper](https://arxiv.org/pdf/2105.08206.pdf)]
+1. (2021 ACL Findings) **NAST: A Non-Autoregressive Generator with Word Alignment for Unsupervised Text Style Transfer.**
+_Fei Huang, Zikai Chen, Chen Henry Wu, Qihan Guo, Xiaoyan Zhu, Minlie Huang_. [[paper](https://arxiv.org/pdf/2106.02210.pdf)]
 
 
 <h4 id="unsupervised_method_3">(Unsupervised Method 3) Back-Translation / Pseudo Data Construction</h4>
@@ -139,7 +154,11 @@ Olga Vechtomova, and Rada Mihalcea.
 1. (2019 EMNLP) **Harnessing Pre-Trained Neural Networks with Rules for Formality Style Transfer.** _Yunli Wang, Yu Wu, Lili Mou, Zhoujun Li, Wenhan Chao_. [[paper](https://www.aclweb.org/anthology/D19-1365/)] [[code](https://github.com/jimth001/formality_emnlp19)]
 1. (2020 COLING) **Formality Style Transfer with Shared Latent Space.** _Yunli Wang, Yu Wu, Lili Mou, Zhoujun Li, Wenhan Chao_. [[paper](https://www.aclweb.org/anthology/2020.coling-main.203.pdf)] [[code](https://github.com/jimth001/formality_style_transfer_)]
 1. (2020 ACL) **Parallel Data Augmentation for Formality Style Transfer.** _Yi Zhang, Tao Ge, Xu Sun_. [[paper](https://arxiv.org/pdf/2005.07522.pdf)] [[code](https://github.com/lancopku/Augmented_Data_for_FST)]
-
+1. (2021 NAACL) **Olá, Bonjour, Salve! XFORMAL: A Benchmark for Multilingual Formality Style Transfer.** _Eleftheria Briakou, Di Lu, Ke Zhang and Joel Tetreault_. [[paper](https://aclanthology.org/2021.naacl-main.256.pdf)]
+1. (2021 ACL) **Improving Formality Style Transfer with Context-Aware Rule Injection.** _Zonghai Yao and Hong Yu_. [[paper](https://arxiv.org/pdf/2106.00210.pdf)]
+1. (2021 ACL) **Thank you BART! Rewarding Pre-Trained Models Improves Formality Style Transfer.**
+_Huiyuan Lai, Antonio Toral and Malvina Nissim_. [[paper](https://aclanthology.org/2021.acl-short.62.pdf)]
+ 
 <h3 id="politeness_transfer">Politeness Transfer (Impolite -> Polite)</h3>
 
 1. (2018 TACL) **Polite dialogue generation without parallel data.** _Tong Niu, Mohit Bansal_. [[paper](https://watermark.silverchair.com/tacl_a_00027.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAqkwggKlBgkqhkiG9w0BBwagggKWMIICkgIBADCCAosGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMdDYQr39GPklZ_M-TAgEQgIICXFbyhaOxmtgwYYgXOGAJtZfP2w2pVWIg5HzgDDYKnt9hJ2XkY5a-uplf_UPSoyRcAlEoIOYhHnL9i1CzChK37bA-y5vUQdldwBYc5pToXaMl1QCFveKDxANV8WMeAYPbLEVNJnZnpYlRGs9AXYqjlfMeeL7cUAwV0aR5cwq8qwrQt-NLUUHGT3hIu0Z0Dhwx878xafjmR2IBbgtYhsdZcfXAHiEtoZCczspDghywH_gV6Q4FShjMLS1B9Djx8EpbBW15UAam0-k6KgGj8ZsevrnnCzROemaHXdpWhTIzVTnkkvsNeHaj-1ML9x9MjySUhsB6DW0nebkc6mbrQiZyCSdXB2nP429yYUwsjDKB_NjmbjB-bwfmgAoQnbK9_QNfDNCOPmAtsyWCRvCzy1SnaDY4WDa3zB8AeWJtTwoYh0VH8SLOE_7McVwoq0R65cDtikNW0uoZueANTFtIoFyNFXCvBMNMJzAd0txymZp_BPggE3iVejYUR7LCxfdPhnknP9yMzyBnKuX9HoWMhQlbXyl74MV2Oi7vwcPEFUDo2hlYilWNGpJfcfvlUEFATnbeftJ5H96f-L3q5z6zNPWujCY5BaO_MxuTosTB6SusA8h95ly7DC8mAz4IJBgEGrlov89SXROEWcbKYMLrSJdqD9LbDmU6lvc2GFhbppKnwvYN3L6zAcbIUSgAecSU2Ognt3FSDcOtKX255nTcO4EaLDa7iBcfftHLkYq2uCQqA_2jAaw-F6LORy5THOOP-CWPTzHzdVG120Qkqz-2ldoRAfe4Qkcoq58eUx9GlcE)]
@@ -187,8 +206,10 @@ Medical text simplication:
 
 <h3 id="machine_translation_with_styles">Machine Translation with Styles</h3>
 
-* Controlling Politeness in Neural Machine Translation via Side Constraints, NAACL 2016, [[paper]](https://www.aclweb.org/anthology/N16-1005.pdf)
-* A Study of Style in Machine Translation: Controlling the Formality of Machine Translation Output, EMNLP 2017, [[paper]](https://www.aclweb.org/anthology/D17-1299.pdf)
+* (2021 NAACL) **Towards Modeling the Style of Translators in Neural Machine Translation.** _Yue Wang, Cuong Hoang, Marcello Federico_. [[paper](https://aclanthology.org/2021.naacl-main.94.pdf)]
+* (2016 NAACL) **Controlling Politeness in Neural Machine Translation via Side Constraints.** _Rico Sennrich, Barry Haddow, Alexandra Birch_. [[paper]](https://www.aclweb.org/anthology/N16-1005.pdf)
+* (2017 EMNLP) **A Study of Style in Machine Translation: Controlling the Formality of Machine Translation Output.** _Xing Niu, Marianna Martindale, Marine Carpuat_. [[paper]](https://www.aclweb.org/anthology/D17-1299.pdf)
+ 
 
 <h3 id="stylized_dialog_response_generation">Stylized Dialog/Response Generation</h3>
 
@@ -198,12 +219,18 @@ Medical text simplication:
 
 <h3 id="summarization_with_styles">Summarization with Styles</h3>
 
-* Hooks in the Headline: Learning to Generate Headlines with Controlled Styles, ACL 2020, [[paper]](https://arxiv.org/pdf/2004.01980.pdf)
-
+* (2020 ACL) **Hooks in the Headline: Learning to Generate Headlines with Controlled Styles.** _Di Jin, Zhijing Jin, Joey Tianyi Zhou, Lisa Orii, Peter Szolovits_. [[paper]](https://arxiv.org/pdf/2004.01980.pdf)
+* (2021 NAACL) **Inference Time Style Control for Summarization.** 
+_Shuyang Cao and Lu Wang_. [[paper](https://arxiv.org/pdf/2104.01724.pdf)]
 
 <h3 id="simile_generation">Simile Generation</h3>
 
 * Generating similes effortlessly like a Pro: A Style Transfer Approach for Simile Generation, EMNLP 2020, [[paper]](https://arxiv.org/pdf/2009.08942.pdf)
+
+<h3 id="story_generation_with_styles">Story Generation with Styles</h3>
+
+* (2021 ACL Findings) **Stylized Story Generation with Style-Guided Planning.**
+_Xiangzhe Kong, Jialiang Huang, Ziquan Tung, Jian Guan, Minlie Huang_. [[paper](https://arxiv.org/pdf/2105.08625.pdf)] 
 
 <h3 id="stylized_image_captions">Stylized Image Captions</h3>
 
@@ -216,9 +243,12 @@ Medical text simplication:
 
 <h2 id="datasets">Datasets</h2>
 
-* Dear Sir or Madam, May I introduce the YAFC Corpus: Corpus, Benchmarks and Metrics for Formality Style Transfer, NAACL-HLT 2018, [[paper]](https://arxiv.org/pdf/1803.06535)
-* A Dataset for Low-Resource Stylized Sequence-to-Sequence Generation, AAAI 2020, [[paper]](https://www.msra.cn/wp-content/uploads/2020/01/A-Dataset-for-Low-Resource-Stylized-Sequence-to-Sequence-Generation.pdf), [[code]](https://github.com/MarkWuNLP/Data4StylizedS2S)
-
+* (2018 NAACL-HLT) **Dear Sir or Madam, May I introduce the YAFC Corpus: Corpus, Benchmarks and Metrics for Formality Style Transfer.** _Sudha Rao, Joel Tetreault_. [[paper]](https://arxiv.org/pdf/1803.06535)
+* (2020 AAAI) **A Dataset for Low-Resource Stylized Sequence-to-Sequence Generation.** _Yu Wu, Yunli Wang, Shujie Liu_. [[paper]](https://www.msra.cn/wp-content/uploads/2020/01/A-Dataset-for-Low-Resource-Stylized-Sequence-to-Sequence-Generation.pdf), [[code]](https://github.com/MarkWuNLP/Data4StylizedS2S)
+* (2021 NAACL) **Olá, Bonjour, Salve! XFORMAL: A Benchmark for Multilingual Formality Style Transfer.** _Eleftheria Briakou, Di Lu, Ke Zhang and Joel Tetreault_. [[paper](https://aclanthology.org/2021.naacl-main.256.pdf)]
+* (2021 NAACL) **StylePTB: A Compositional Benchmark for Fine-grained Controllable Text Style Transfer.**
+_Yiwei Lyu, Paul Pu Liang, Hai Pham, Eduard Hovy, Barnabás Póczos, Ruslan Salakhutdinov and Louis-Philippe Morency_. [[paper](https://aclanthology.org/2021.naacl-main.171.pdf)]
+* (2021 ACL) **Style is NOT a single variable: Case Studies for Cross-Style Language Understanding.** _Dongyeop Kang, Eduard Hovy_. [[paper](https://arxiv.org/pdf/1911.03663.pdf)]
 
 <h2 id="evaluation_and_analysis">Evaluation and Analysis</h2>
 
