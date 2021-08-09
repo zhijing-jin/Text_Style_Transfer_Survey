@@ -201,6 +201,7 @@ Medical text simplication:
 1. (2020 AAAI) **Automatically Neutralizing Subjective Bias in Text.** _Reid Pryzant, Richard Diehl Martinez, Nathan Dass, Sadao Kurohashi, Dan Jurafsky, Diyi Yang_. [[paper](https://arxiv.org/pdf/1911.09709.pdf)] [[code](https://github.com/rpryzant/neutralizing-bias)]
 1. (2020 COLING) **Towards A Friendly Online Community: An Unsupervised Style Transfer Framework for Profanity Redaction.** _Minh Tran, Yipeng Zhang, Mohammad Soleymani_. [[paper](https://arxiv.org/pdf/2011.00403.pdf)]
 1. (2020 EMNLP) **Unsupervised Controllable Revision for Biased Language Correction.** _Xinyao Ma, Maarten Sap, Hannah Rashkin, Yejin Choi_. [[paper](https://www.aclweb.org/anthology/2020.emnlp-main.602.pdf)]
+1. (2021 ACL Workshop) **Methods for Detoxification of Texts for the Russian Language.** _Daryna Dementieva, Daniil Moskovskiy, Varvara Logacheva, David Dale, Olga Kozlova, Nikita Semenov, Alexander Panchenko_. [[paper](https://arxiv.org/pdf/2105.09052.pdf)] [[code](https://github.com/skoltech-nlp/rudetoxifier)]
 
 <h2 id="downstream_applications">Downstream Applications</h2>
 
