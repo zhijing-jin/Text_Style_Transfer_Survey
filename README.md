@@ -169,7 +169,8 @@ _Huiyuan Lai, Antonio Toral and Malvina Nissim_. [[paper](https://aclanthology.o
 Wikipedia simplification:
 
 1. (2010 COLING) **A monolingual tree-based translation model for sentence simplification.** _Zhemin Zhu, Delphine Bernhard, and Iryna Gurevych_. [[paper](https://www.aclweb.org/anthology/C10-1152.pdf)]
-
+1. (2021 NAACL) **Controllable Text Simplification with Explicit Paraphrasing.** _Mounica Maddela, Fernando Alva-Manchego, Wei Xu_. [[paper](https://arxiv.org/pdf/2010.11004.pdf)]
+ 
 Medical text simplication:
 1. (2019 KDD) **Unsupervised Clinical Language Translation.** _Wei-Hung Weng, Yu-An Chung, Peter Szolovits_. [[paper](https://arxiv.org/pdf/1902.01177.pdf)] Dataset: MIMIC-III (non-parallel) 59K documents.
 1. (2019 WWW) **Evaluating neural text simplification in the medical domain.** _Laurens Van den Bercken, Robert-Jan Sips, Christoph Lofi_. [[paper](https://dl.acm.org/doi/pdf/10.1145/3308558.3313630?casa_token=WQIEtRWIgTQAAAAA:nJFh6PMhJ6OewHu9KevGbYQ_nMGFwZG3Tv1FURmDuOsZ7UgvwoVHaolirEzMRuK2PpUjjsU6t8o)] Dataset: 2.2K Expert-to-Layman conversion
