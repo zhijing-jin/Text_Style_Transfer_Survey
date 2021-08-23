@@ -250,6 +250,7 @@ _Xiangzhe Kong, Jialiang Huang, Ziquan Tung, Jian Guan, Minlie Huang_. [[paper](
 * (2021 NAACL) **StylePTB: A Compositional Benchmark for Fine-grained Controllable Text Style Transfer.**
 _Yiwei Lyu, Paul Pu Liang, Hai Pham, Eduard Hovy, Barnabás Póczos, Ruslan Salakhutdinov and Louis-Philippe Morency_. [[paper](https://aclanthology.org/2021.naacl-main.171.pdf)]
 * (2021 ACL) **Style is NOT a single variable: Case Studies for Cross-Style Language Understanding.** _Dongyeop Kang, Eduard Hovy_. [[paper](https://arxiv.org/pdf/1911.03663.pdf)]
+* (2021 VLDB Workshop) **Crowdsourcing of Parallel Corpora:the Case of Style Transfer for Detoxification.** _Daryna Dementieva, Sergey Ustyantsev, David Dale, Olga Kozlova, Nikita Semenov, Alexander Panchenko and Varvara Logacheva_ [[paper](http://ceur-ws.org/Vol-2932/paper2.pdf)] [[repo](https://github.com/skoltech-nlp/parallel_detoxification_dataset)]
 
 <h2 id="evaluation_and_analysis">Evaluation and Analysis</h2>
 
