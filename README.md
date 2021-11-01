@@ -175,8 +175,9 @@ Medical text simplication:
 1. (2019 KDD) **Unsupervised Clinical Language Translation.** _Wei-Hung Weng, Yu-An Chung, Peter Szolovits_. [[paper](https://arxiv.org/pdf/1902.01177.pdf)] Dataset: MIMIC-III (non-parallel) 59K documents.
 1. (2019 WWW) **Evaluating neural text simplification in the medical domain.** _Laurens Van den Bercken, Robert-Jan Sips, Christoph Lofi_. [[paper](https://dl.acm.org/doi/pdf/10.1145/3308558.3313630?casa_token=WQIEtRWIgTQAAAAA:nJFh6PMhJ6OewHu9KevGbYQ_nMGFwZG3Tv1FURmDuOsZ7UgvwoVHaolirEzMRuK2PpUjjsU6t8o)] Dataset: 2.2K Expert-to-Layman conversion
 1. (2020 ACL) **Expertise Style Transfer: A New Task Towards Better Communication between Experts and Laymen.** _Yixin Cao, Ruihao Shui, Liangming Pan, Min-Yen Kan, Zhiyuan Liu, Tat-Seng Chua_. [[paper](https://arxiv.org/pdf/2005.00701.pdf)] [[code](https://srhthu.github.io/expertise-style-transfer/)] [[data - MSD (parallel) ](https://srhthu.github.io/expertise-style-transfer/)] Dataset: MSD (parallel) 114K sentences.
+1. (2021 NAACL) **Paragraph-level Simplification of Medical Texts.** _Ashwin Devaraj, Iain Marshall, Byron Wallace, Junyi Jessy Li_. [[paper](https://aclanthology.org/2021.naacl-main.395.pdf)]
 
-<h3 id="author_prose_styles">Author/Prose Styles</h3>
+ <h3 id="author_prose_styles">Author/Prose Styles</h3>
 
 1. (2012 COLING) **Paraphrasing for Style.** _Wei Xu, Alan Ritter, Bill Dolan, Ralph Grishman, Colin Cherry_. [[paper](https://www.aclweb.org/anthology/C12-1177.pdf)]
 1. (2017 EMNLP Workshop) **Shakespearizing Modern Language Using Copy-Enriched Sequence to Sequence Models.** _Harsh Jhamtani, Varun Gangal, Eduard Hovy, Eric Nyberg_. [[paper](https://arxiv.org/pdf/1707.01161.pdf)] [[code](https://github.com/harsh19/Shakespearizing-Modern-English)]
